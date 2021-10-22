@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("images/clear.jpg");
+    overflow: hidden;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.app-main{
+    width: 50vw;
+    margin: 100px auto;
+   /* background-color: rgba(240, 248, 255, 0.6);*/
+   background-color:	rgb(255, 128, 128,0.6);
+    padding: 20px;
+    text-align: center;
+   /* border: 2px solid black;*/
+}
+.app-main > *{
+    margin-bottom: 20px;
+}
+.input-box{
+    background-color: rgba(240, 248, 255, 0.6);
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: #582233;
+    height: 50px;
+    border-radius: 5px;
+}
+.input-box:focus{
+    background-color: rgba(255, 255, 255);
+}
+.weather-body{
+    display: none;
+    padding: 20px;
+    background-color: rgba(255, 255, 255);
+    line-height: 2rem;
+    border-radius: 10px;
+    height: 50vh;
+    /*border: 2px solid blueviolet;*/
+}
+.location-details{
+    font-weight: bold;
+}
+.weather-status{
+    padding: 20px;
+}
+.temp{
+    font-weight: 700;
+    font-size: 50pt;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+.min-max, .weather{
+    font-size: 12pt;
+    font-weight: 600;
+}
